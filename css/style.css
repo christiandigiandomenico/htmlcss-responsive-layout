@@ -231,11 +231,11 @@ footer {
     }
 
     .card.maincard {
-        width: 65%;
+        width: calc(100% / 3 * 2 - 25px);
     }
 
     .card-second {
-        width: 31%;
+        width: calc(100% / 3 - 20px);
         margin-top: 50px;
         background-color: #b5ddff;
         border-radius: 15px;
@@ -248,7 +248,7 @@ footer {
 
     .card {
         width: calc(100% / 3);
-        margin-left: 10px;
+
     }
 
     /* End main section responsive */
