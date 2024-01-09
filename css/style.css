@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: #0084fd;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px
+}
+
+/* End navbar */
+
+/* Main section */
+
+.card.maincard {
+
+    margin-top: 50px;
+
+    /* Test */
+
+    height: 600px;
+
+}
+
+.card {
+
+    margin: 0px 15px 25px 15px;
+    background-color: #b5ddff;
+    border-radius: 25px;
+
+    /* Test */
+
+    height: 355px;
+
+}
+
+.content-cards {
+
+    padding: 40px 30px;
+
+    /* Test */
+    width: 50%;
+    height: 50%;
+
+}
+
+/* End Main section */
