@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* Navbar */
 
 nav {
@@ -15,6 +19,23 @@ nav {
     justify-content: space-between;
 
     padding: 30px
+}
+
+.links {
+    display: none;
+}
+
+.links-tree a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-tree a:nth-of-type(5) {
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+
 }
 
 /* End navbar */
@@ -61,10 +82,6 @@ nav {
 
     margin-top: 80px;
     background-color: #9792e4;
-
-    /* Test */
-
-    height: 1400px;
 
 }
 
@@ -117,10 +134,6 @@ nav {
     background-color: #9792e4;
     border-radius: 35px;
     margin: 30px 30px;
-
-    /* test */
-
-    height: 500px
 }
 
 .testimonials-content {
@@ -139,13 +152,13 @@ nav {
 .benefits-with-us {
 
     background-color: #9792e4;
+    padding-bottom: 40px;
 
-    /* test */
-    height: 2800px;
 }
 
 .benefits-with-us h3 {
 
+    text-align: center;
     padding: 70px;
 
 }
@@ -166,3 +179,125 @@ nav {
 }
 
 /* End Working with us */
+
+/* About us */
+
+.about-us-content {
+    padding: 90px 30px;
+}
+
+.about-us-picture {
+    padding: 90px 30px;
+}
+
+/* Fine about us */
+
+/* Get Started */
+
+.get-started {
+
+    background-color: #9792e4;
+
+}
+
+.get-started-content {
+
+    padding: 60px 30px;
+
+}
+
+/* End Get Started */
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+}
+
+.footer-content {
+    padding: 30px;
+    text-align: center;
+}
+
+/* End Footer */
+
+@media screen and (min-width: 768px) {
+
+    /* Main section responsive */
+
+    .card-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card.maincard {
+        width: 65%;
+    }
+
+    .card-second {
+        width: 31%;
+        margin-top: 50px;
+        background-color: #b5ddff;
+        border-radius: 15px;
+        max-height: 600px;
+    }
+
+    .card-aux {
+        display: flex;
+    }
+
+    .card {
+        width: calc(100% / 3);
+        margin-left: 10px;
+    }
+
+    /* End main section responsive */
+
+    /* Second section responsive */
+
+    .flex-responsive {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-cards {
+        width: 40%;
+    }
+
+    .about-us {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* End second section responsive */
+
+}
+
+@media screen and (min-width: 992px) {
+
+    /* Stratetic planning responsive */
+
+    .strategic-planning {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* End strategic planning responsive */
+
+    .flex-responsive {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-cards {
+        width: 25%;
+    }
+
+    footer {
+        padding: 0 150px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {}
