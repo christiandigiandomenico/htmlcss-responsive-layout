@@ -138,6 +138,7 @@ nav {
 
 .testimonials-content {
 
+    margin: auto;
     padding: 30px 25px;
 
     /* test */
@@ -258,6 +259,7 @@ footer {
     .flex-responsive {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .benefits-cards {
