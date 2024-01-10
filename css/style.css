@@ -38,6 +38,14 @@ nav {
 
 }
 
+.logo img {
+    width: 60px;
+}
+
+.navigationbar .fa-solid {
+    color: white;
+}
+
 /* End navbar */
 
 /* Main section cards */
@@ -47,8 +55,14 @@ nav {
     margin-top: 50px;
 
     /* Test */
+    height: 100%;
+}
 
-    height: 600px;
+.card-second {
+
+    margin: 0px 15px 25px 15px;
+    background-color: #b5ddff;
+    border-radius: 15px;
 
 }
 
@@ -66,12 +80,63 @@ nav {
 
 .content-cards {
 
-    padding: 40px 30px;
+    padding: 0px 30px 0px 30px;
 
     /* Test */
-    width: 50%;
-    height: 50%;
 
+    height: 45%;
+
+}
+
+.blue-string {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2e9afe;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content-cards p {
+    margin-bottom: 35px;
+}
+
+.content-cards a {
+    color: white;
+    text-decoration: none;
+    background-color: #0084fd;
+    padding: 10px 30%;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.content-cards.second-content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-cards img {
+    width: 250px;
+    display: block;
+}
+
+.content-cards .fa-solid {
+    font-size: 80px;
+    color: #0084fd;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 40px;
+
+}
+
+.content-cards.second-content p {
+    text-align: center;
+}
+
+.card .content-cards.second-content {
+    margin-top: 35px;
 }
 
 /* End Main section cards */
@@ -82,16 +147,13 @@ nav {
 
     margin-top: 80px;
     background-color: #9792e4;
+    padding-bottom: 40px;
 
 }
 
 .strategic-content {
 
     padding: 30px;
-
-    /* test */
-    height: 25%;
-    width: 25%;
 
 }
 
@@ -102,19 +164,58 @@ nav {
     background-color: white;
     border-radius: 35px;
 
-    /* test */
-
-    height: 615px;
-
 }
 
 .app-development-content {
 
     padding: 25px;
 
-    /* test */
-    height: 50%;
-    width: 50%;
+}
+
+.strategic-content img {
+    width: 100%;
+}
+
+.strategic-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.strategic-content p {
+    color: white;
+}
+
+.app-development-content img {
+    width: 100%;
+}
+
+.app-development-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.app-development-content p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.app-development-content .fa-solid {
+    background-color: #9792e4;
+    padding: 15px;
+    border-radius: 50%;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.font-awesome-button {
+    display: flex;
+    justify-content: center;
 }
 
 /* End Strategic planning */
@@ -124,9 +225,18 @@ nav {
 .testimonials-introduction {
 
     text-align: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
+}
+
+.testimonials-title {
+    margin-bottom: 30px;
+}
+
+.testimonials-introduction h2 {
+    font-size: 32px;
+    color: #9792e4;
 }
 
 .testimonials-cards {
@@ -136,15 +246,36 @@ nav {
     margin: 30px 30px;
 }
 
+
+.testimonials-image {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
 .testimonials-content {
 
     margin: auto;
-    padding: 30px 25px;
+    padding: 15px 25px 0px 25px;
 
-    /* test */
-    height: 50%;
-    width: 50%;
+    color: white;
+    width: 100%;
+
 }
+
+.testimonials-content p {
+    margin-bottom: 32px;
+}
+
+.testimonials-name {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+
 
 /* End Testimonials */
 
@@ -160,7 +291,9 @@ nav {
 .benefits-with-us h3 {
 
     text-align: center;
-    padding: 70px;
+    padding: 70px 0px 45px 0px;
+    color: white;
+    font-size: 32px;
 
 }
 
@@ -170,26 +303,103 @@ nav {
     border-radius: 15px;
     margin: 30px;
 
-    /* test */
-
-    height: 400px;
 }
 
 .benefits-cards-content {
     padding: 45px 30px;
 }
 
+.number-title {
+    font-size: 40px;
+    color: #9792e4;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.quality-title {
+    font-size: 24px;
+    color: #9792e4;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.benefits-cards-content p {
+    margin-bottom: 35px;
+}
+
+.benefits-cards-content a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 50px;
+    background-color: #9792e4;
+    border-radius: 25px;
+}
+
 /* End Working with us */
 
 /* About us */
 
+.about-us {
+    margin-bottom: 50px;
+}
+
 .about-us-content {
-    padding: 90px 30px;
+    padding: 90px 30px 0px 30px;
 }
 
 .about-us-picture {
-    padding: 90px 30px;
+    padding: 0px 30px 20px 30px;
 }
+
+.about-us-content h2 {
+    color: #9792e4;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.about-us-content p {
+    margin-bottom: 65px;
+}
+
+.about-us-picture img {
+
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.about-us-picture .fa-solid {
+
+    position: relative;
+    bottom: 110px;
+    right: 50px;
+
+    font-size: 60px;
+    color: #9792e4;
+
+}
+
+.about-us-subtitle {
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding: 0px 30px;
+}
+
+.about-us a {
+    color: white;
+    text-decoration: none;
+    background-color: #9792e4;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin: 0px 30px;
+    font-size: 13px;
+}
+
 
 /* Fine about us */
 
@@ -205,6 +415,57 @@ nav {
 
     padding: 60px 30px;
 
+}
+
+.get-started-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.get-started-simple {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.get-started-free {
+    color: #fdc15f;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.get-started-subtitle {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.get-started-content>a {
+    color: #9792e4;
+    background-color: white;
+    padding: 15px 30%;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.get-started-copyright {
+    margin-top: 40px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.get-started-copyright>a {
+    color: white;
 }
 
 /* End Get Started */
@@ -228,7 +489,7 @@ footer {
 
     .card-main {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .card.maincard {
@@ -251,6 +512,7 @@ footer {
         width: calc(100% / 3);
 
     }
+
 
     /* End main section responsive */
 
@@ -277,6 +539,20 @@ footer {
     }
 
     /* End second section responsive */
+
+    /* About us */
+
+    .about-us-picture .fa-solid {
+        position: relative;
+        bottom: 160px;
+        left: 110px;
+    }
+
+    .about-us-picture img {
+
+        margin-top: 80px;
+
+    }
 
 }
 
@@ -309,6 +585,11 @@ footer {
         padding-right: 150px;
     }
 
+    .strategic-planning {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
     .get-started-content {
         display: flex;
         justify-content: center;
@@ -317,6 +598,18 @@ footer {
     .strategic-planning {
         display: flex;
         justify-content: center;
+    }
+
+    .card-main {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .strategic-enclosure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     /* End strategic planning responsive */
@@ -331,10 +624,36 @@ footer {
         width: 25%;
     }
 
+    .about-us-picture .fa-solid {
+        position: relative;
+        bottom: 160px;
+        left: 110px;
+    }
+
+    /* About us */
+
     footer {
         padding: 0 175px;
     }
 
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    .maincard {
+        display: flex;
+    }
+
+    .content-cards.second-content.second-image img {
+        position: relative;
+        bottom: 0px;
+        top: 0px;
+    }
+
+    .about-us-picture .fa-solid {
+        position: relative;
+        bottom: 100px;
+        left: -40px;
+    }
+
+}
