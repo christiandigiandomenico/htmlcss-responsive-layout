@@ -479,6 +479,12 @@ footer {
 .footer-content {
     padding: 30px;
     text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-content.second-content>a {
+    color: #9893e6;
 }
 
 /* End Footer */
