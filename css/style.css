@@ -54,8 +54,6 @@ nav {
 
     margin-top: 50px;
 
-    /* Test */
-    height: 100%;
 }
 
 .card-second {
@@ -671,19 +669,8 @@ footer {
         margin-bottom: 120px;
     }
 
-    .card .content-cards.second-content {
-        height: 355px;
-    }
-
     .maincard {
         display: flex;
-    }
-
-    .second-image {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
 }
