@@ -97,11 +97,9 @@ nav {
     color: white;
     text-decoration: none;
     background-color: #0084fd;
-    padding: 10px 30%;
+    padding: 10px 20%;
     border-radius: 25px;
-    display: block;
     text-align: center;
-    margin-bottom: 80px;
 }
 
 .content-cards.second-content {
@@ -671,6 +669,10 @@ footer {
 
     .content-cards a {
         margin-bottom: 120px;
+    }
+
+    .card .content-cards.second-content {
+        height: 355px;
     }
 
     .maincard {
